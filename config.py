@@ -50,7 +50,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 ── External APIs ──────────────────────────────────────────────────────────────
 
-COOKIE_URL = getenv("COOKIE_URL", "https://pastebin.com/YfK14h8y")  # paste link (raw URL is auto-resolved)
+COOKIE_URL = getenv("COOKIE_URL", "https://gist.githubusercontent.com/beyondthenoise09-ai/4712914baef13f4b61943e9c25e7a039/raw/06d1790a410514b689444bbf624d06bd43859125/cookies.txt")  # paste link (raw URL is auto-resolved)
 API_URL = getenv("API_URL", "https://pvtz.nexgenbots.xyz")
 VIDEO_API_URL = getenv("VIDEO_API_URL", "https://api.video.nexgenbots.xyz")
 API_KEY = getenv("API_KEY", "")
